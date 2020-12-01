@@ -1,0 +1,51 @@
+.foodItem {
+  width: 94%;
+  margin: 0.2em auto;
+  border-radius: 15px;
+  padding: 10px;
+  height: 15%;
+  background-color: blanchedalmond;
+
+  font-family: "Ubuntu", sans-serif;
+  font-size: 0.8rem;
+}
+
+.foodItem__info {
+  display: flex;
+  justify-content: space-between;
+}
+
+.foodItem__stats {
+  display: flex;
+  justify-content: space-between;
+}
+
+.foodItem__statsCalories {
+  font-weight: 600;
+}
+
+.foodItem__delete {
+  align-items: center;
+  transition: 0.3s;
+  justify-content: center;
+  margin-top: 0.6em;
+}
+
+.foodItem__delete:hover {
+  transform: scale(1.2);
+  cursor: pointer;
+}
+
+@media screen and (min-width: 500px) {
+  .foodItem {
+    width: 40%;
+    margin: 0.2em auto;
+    border-radius: 15px;
+    padding: 10px;
+    height: 15%;
+    background-color: blanchedalmond;
+
+    font-family: "Ubuntu", sans-serif;
+    font-size: 1rem;
+  }
+}
